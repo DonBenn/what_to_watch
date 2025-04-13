@@ -73,7 +73,13 @@ flask db init
 flask db upgrade 
 ```
 
-* Команда для запуска:
+Команда загрузки мнений в базу данных.
+
+```
+flask load_opinions
+```
+
+Команда для запуска:
 
 ```
 flask run
